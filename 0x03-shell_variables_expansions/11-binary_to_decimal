@@ -1,0 +1,2 @@
+#!bin/bin/bash
+printf "%d\n" $BINARY
