@@ -1,0 +1,5 @@
+# Fix to config file
+exec { 'fix-wordpess-server-error':
+    command => 'sed -i s/phpp/php/g /var/www/html/wp-settings.php',
+    path    => '/usr/bin/:/bin/',
+}
